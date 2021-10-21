@@ -1,0 +1,26 @@
+.mainContainer {
+  max-width : 1100px;
+  background-color: rgba(64, 63, 76, 0.6);
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  border-color: green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainContainer a {
+  color: rgb(173, 233, 191);
+  text-decoration: underline;
+}
+
+.mainContainer p, li, h2{
+  color: white;
+}

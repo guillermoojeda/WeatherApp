@@ -1,0 +1,22 @@
+
+.btn {
+    min-width: 40px;
+    max-width: 150px;
+    background-color: darkgrey;
+}
+
+
+.form{
+    max-width: 400px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inp{
+    max-height: 40px;
+    margin-right: 15px;
+}
