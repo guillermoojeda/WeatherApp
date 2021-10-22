@@ -5,3 +5,7 @@ To see the project, take a look at:
 https://guillermoojeda.github.io/WeatherApp/
 
 ![](sample.gif)
+
+### Instructions
+
+
