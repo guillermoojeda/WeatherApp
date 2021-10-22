@@ -11,7 +11,7 @@ console.log(process.cwd())
 console.log(process.env);
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
     </BrowserRouter>,
     document.getElementById('root')
