@@ -22,6 +22,14 @@ function App() {
 
     const [cities, setCities] = useState([]);
 
+    var url;
+
+    if (Location.protocol === 'http:') {
+        url = 'http://api.openweathermap.org/data/2.5/weather?lat=21.1682895&lon=-101.6723306&units=imperial&APPID=ec50a6072ac189dee111acdd3a38ab9f';
+    } else {
+        url = 'https://api.openweathermap.org/data/2.5/weather?lat=21.1682895&lon=-101.6723306&units=imperial&APPID=ec50a6072ac189dee111acdd3a38ab9f';
+    }
+
     function onSearch(ciudad) {
         //Llamado a la API del clima
         console.log("api key")
