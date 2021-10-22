@@ -27,6 +27,7 @@ function App() {
         console.log("api key")
         console.log(apiKey)
         console.log(process.env)
+        console.log("probando...")
         var url;
         if (Location.protocol === 'http:') {
             url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`;
