@@ -8,4 +8,5 @@ https://guillermoojeda.github.io/WeatherApp/
 
 ### Instructions
 
+Write the name of a city in the empty serach bar of the top-right corner. Press the "Add city" button to look ffor weather data of that city and display it on screen. The is obtained from OpenWeatherMap.com. To remove a city card from the screen, press the X on the top-righht corner of that card.
 
